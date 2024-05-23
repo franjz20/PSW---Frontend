@@ -1,0 +1,255 @@
+/* CABECERA PRINCIPAL */
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  align-items: center;
+  background-color: #F8F8FF;
+  border-bottom: 1px solid rgb(129, 125, 125);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+
+/* LINKS */
+/* nav a {
+  font-weight: 600;
+  padding-right: 10px;
+  margin: 0 1rem;
+  text-align: right;
+  width: 10px;
+  color: black;
+} */
+
+nav a:hover {
+  color: #008080;
+}
+
+.tipoOper {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: white;
+  background-color: #008080;
+  padding: 1% 1%;
+  border-radius: 5px;
+  margin: 10px 10px;
+  width: 150px;
+  border: #000000;
+}
+
+/* a {
+  text-decoration: none;
+  margin: 10px 20px;
+  color: black;
+} */
+
+/*CONTENIDO DE LA PAGINA */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  justify-content: center;
+}
+
+.titulo {
+  margin: 10px;
+  background-color: #008080;
+  border: 1px solid #F8F8FF;
+  color: white;
+  position: relative;
+  top: 5px;
+  left: 0;
+  padding: auto;
+  text-align: center;
+}
+
+.buscador{
+  padding-top: 5px;
+  position: relative;
+  font-family: cursive;
+  text-align: left;
+  width: 30%;
+}
+
+.menu-locales{
+  position: relative;
+  text-align: center;
+  margin: 30px 50px 80px 80px;
+}
+
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: cursive;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+
+h2 {
+  color: black;
+}
+
+
+.locales {
+  box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 300px;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 30px;
+  position: relative;
+  text-align: left;
+  margin: 30px 50px 10px 50px;
+  float: left;
+
+}
+
+.locales img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s linear;
+  border-radius: 10px;
+}
+
+.locales:hover {
+  transform: scale(0.9);
+  border-radius: 30px;
+}
+
+.descripcion-local {
+  padding: 2px 16px;
+
+}
+
+.descripcion-local p {
+  font-size: small;
+}
+
+/* Añade esta regla CSS para definir el color de fondo de los select */
+.select-bg-color {
+  background-color: #007bff;
+  color: white;
+}
+
+/*CONTENIDO DE CONTACTO */
+
+/* Formulario */
+.form-contenido {
+  border-radius: 5px;
+  background-color: #008080;
+  border: 1px solid #ffe4c4;
+  padding: 20px;
+  margin: 30px 300px 30px 300px;
+  color: white;
+  position: relative;
+  top: 10px;
+
+}
+
+/* Aplico estilos a las entradas type seleccionar elementos y áreas de texto */
+
+input[type=text],
+[type=email],
+[type=number],
+[type=time],
+[type=checkbox],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=reset] {
+  background-color: #DC143C;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=button] {
+  background-color: #00FF40;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=time] {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px;
+}
+
+
+input[type=checkbox] {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 10px;
+}
+
+/* Al mover el mouse sobre el botón de enviar, agrega un color mas claro */
+input[type=reset]:hover {
+  background-color: white;
+  color: #000000;
+}
+
+input[type=button]:hover {
+  background-color: white;
+  color: #000000;
+}
+
+.botones {
+  text-align: center;
+}
+
+#footer {
+
+  margin-top: 0;
+  font-size: 1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
+  background-color: #000000;
+}
+
+/* Estilos personalizados */
+.hover-zoom {
+  transition: transform 0.2s;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.1);
+}
+
+.imgLogo {
+  width: 150px;
+}

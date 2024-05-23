@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Delivery</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css" type="text/css">
+    <!-- Favicons -->
+    <link href="static/img/favicon.ico" rel="icon">
+</head>
+
+<body>
+    <!-- CABECERA -->
+    <header class="container-fluid d-flex justify-content-between align-items-center p-3 bg-light shadow-sm">
+        <div class="logo">
+            <img class="imgLogo img-fluid" src="static/img/logo.png" alt="Fast Delivery Logo">
+        </div>
+        <nav>
+            <div class="navbar">
+                <a class="btn btn-outline-primary mx-2" href="index.html">INICIO</a>
+                <!-- <a class="btn btn-outline-primary mx-2" href="registro.html">REGISTRAR LOCAL</a> -->
+            </div>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO DE LA PÁGINA -->
+    <main class="container mt-5">
+        <div class="form-contenido">
+            <form action="#">
+                <h1 class="text-center">CONTACTO</h1>
+                <h3 class="text-center">Ingrese sus datos en el siguiente formulario</h3><br>
+
+                <label for="nombre">Nombre*: </label> <br>
+                <input class="form-control mb-3" type="text" id="nombre" name="nombre" placeholder="Escriba su nombre.."> <br>
+
+                <label for="email">Email*: </label> <br>
+                <input class="form-control mb-3" type="text" id="email" name="email" placeholder="Escriba su email.."> <br>
+
+                <label for="telefono">Teléfono*: </label> <br>
+                <input class="form-control mb-3" type="text" id="telefono" name="telefono" placeholder="Escriba su teléfono.."> <br>
+
+                <label for="subject">Asunto (Opcional)</label> <br>
+                <textarea class="form-control mb-3" id="subject" name="subject" placeholder="Escribe algo.." style="height:200px"></textarea>
+
+                <div class="botones text-center">
+                    <input class="btn btn-secondary mx-2" type="reset" name="cancelar" value="Cancelar">
+                    <input class="btn btn-primary mx-2" type="button" name="enviar" value="Enviar" onclick="validarContacto(this.form)">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer id="footer" class="text-center p-3 bg-light shadow-sm">
+        <p>@UNJu Facultad de Ingeniería - Jujuy - Argentina</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

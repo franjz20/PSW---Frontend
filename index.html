@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Delivery</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css" type="text/css">
+    <!-- Favicons -->
+    <link href="static/img/favicon.ico" rel="icon">
+</head>
+
+<body>
+    <!-- CABECERA -->
+    <header class="container-fluid d-flex justify-content-between align-items-center p-3 bg-primary text-white shadow-sm">
+        <div class="logo">
+            <img class="imgLogo img-fluid" src="static/img/logo.png" alt="Fast Delivery Logo">
+        </div>
+        <nav>
+            <div class="navbar">
+                <!-- <a class="btn btn-outline-light mx-2" href="index.html">INICIO</a> -->
+                <a class="btn btn-outline-light mx-2" href="usuario.html">CONTACTO</a>
+                <a class="btn btn-outline-light mx-2" href="registro.htmls">REGISTRAR LOCAL</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO DE LA PAGINA -->
+    <main class="container mt-5">
+        <div class="text-center">
+            <h1>¡Bienvenidos a Fast Delivery!</h1>
+            <h3>¿Qué vas a pedir hoy?</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <select class="form-control select-bg-color" name="provincia" id="provincia">
+                    <option value="">--Seleccione la provincia--</option>
+                    <option value="J">JUJUY</option>
+                    <option value="S">SALTA</option>
+                    <option value="T">TUCUMÁN</option>
+                    <option value="SE">SANTIAGO DEL ESTERO</option>
+                </select>
+            </div>
+            <div class="col-md-6 mb-3">
+                <select class="form-control select-bg-color" name="tipo-local" id="tipo-local">
+                    <option value="">--Seleccione el tipo de local--</option>
+                    <option value="R">Restaurante</option>
+                    <option value="P">Pizzería</option>
+                    <option value="H">Heladería</option>
+                    <option value="ROT">Rotisería</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card hover-zoom">
+                    <img src="static/img/locales/local1.jpg" class="card-img-top" alt="FAST FOOD">
+                    <div class="card-body">
+                        <h5 class="card-title">FAST FOOD</h5>
+                        <p class="card-text">Rotiseria</p>
+                        <p class="card-text">JUJUY - Argentina</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card hover-zoom">
+                    <img src="static/img/locales/local2.jpg" class="card-img-top" alt="GRIDO">
+                    <div class="card-body">
+                        <h5 class="card-title">GRIDO</h5>
+                        <p class="card-text">Heladería</p>
+                        <p class="card-text">SALTA - Argentina</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card hover-zoom">
+                    <img src="static/img/locales/local3.jpg" class="card-img-top" alt="RUSTIC PIZZA">
+                    <div class="card-body">
+                        <h5 class="card-title">RUSTIC PIZZA</h5>
+                        <p class="card-text">Pizzería</p>
+                        <p class="card-text">SANTIAGO DEL ESTERO - Argentina</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card hover-zoom">
+                    <img src="static/img/locales/local4.jpg" class="card-img-top" alt="DELICIOUS TASTE">
+                    <div class="card-body">
+                        <h5 class="card-title">DELICIOUS TASTE</h5>
+                        <p class="card-text">Restaurante</p>
+                        <p class="card-text">SALTA - Argentina</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card hover-zoom">
+                    <img src="static/img/locales/local5.jpg" class="card-img-top" alt="PIZZA EN CONO">
+                    <div class="card-body">
+                        <h5 class="card-title">PIZZA EN CONO</h5>
+                        <p class="card-text">Pizzería</p>
+                        <p class="card-text">TUCUMÁN - Argentina</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card hover-zoom">
+                    <img src="static/img/locales/local6.jpg" class="card-img-top" alt="BIG BEAR RESTAURANT">
+                    <div class="card-body">
+                        <h5 class="card-title">BIG BEAR RESTAURANT</h5>
+                        <p class="card-text">Restaurante</p>
+                        <p class="card-text">JUJUY - Argentina</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card hover-zoom">
+                    <img src="static/img/locales/local7.jpg" class="card-img-top" alt="ICE CREAM">
+                    <div class="card-body">
+                        <h5 class="card-title">ICE CREAM</h5>
+                        <p class="card-text">Heladería</p>
+                        <p class="card-text">SANTIAGO DEL ESTERO - Argentina</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card hover-zoom">
+                    <img src="static/img/locales/local8.jpg" class="card-img-top" alt="LOS DOS CARBONES">
+                    <div class="card-body">
+                        <h5 class="card-title">LOS DOS CARBONES</h5>
+                        <p class="card-text">Rotisería</p>
+                        <p class="card-text">TUCUMÁN - Argentina</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card hover-zoom">
+                    <img src="static/img/locales/local9.jpg" class="card-img-top" alt="BIG BURGER">
+                    <div class="card-body">
+                        <h5 class="card-title">BIG BURGER</h5>
+                        <p class="card-text">Restaurante</p>
+                        <p class="card-text">SALTA - Argentina</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer id="footer" class="text-center p-3 bg-primary text-white shadow-sm mt-5">
+        <p>@UNJu Facultad de Ingeniería - Jujuy - Argentina</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
